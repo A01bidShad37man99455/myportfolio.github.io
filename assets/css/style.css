@@ -204,6 +204,33 @@ html, body {
     padding-bottom: 2px;
 }
 
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav > li {
+        width: 100%;
+    }
+
+    .navbar-nav > li > a {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+        display: flex;
+       
+    }
+}
+
+
+
 /* Navigation */
 .navbar-nav > li > a {
     padding: 5px 0;
@@ -217,6 +244,7 @@ html, body {
     -o-transition: border-color 0.25s ease-in-out;
     -ms-transition: border-color 0.25s ease-in-out;
 }
+
 
 .navbar-nav.navbar-right {
     margin-right: 0;

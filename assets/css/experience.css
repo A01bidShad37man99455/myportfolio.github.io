@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.data-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+h3 {
+    text-align: left;
+}
+
+li {
+    text-align: justify;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    h3 {
+        text-align: left;
+    }
+    li {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    h3 {
+        text-align: left;
+    }
+    li {
+        text-align: justify;
+    }
+}
+.publication-experience {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.publication-experience ul {
+    font-size: 14px;
+}
+.publication-experience h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #d73b30;
+}
+
+.content .publication-experience h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #d73b30;
+}
+
+.experience h3 span {
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+}
+
+.publication-experience .authors {
+    font-weight: bold;
+}
+
+.publication-experience .details {
+    color: #666;
+}
+
+.publication-experience .links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.publication-experience .links a:hover {
+    text-decoration: underline;
+}
+
+.publication-type {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .data-container {
+        padding: 0 10px;
+    }
+
+    .publication-experience {
+        padding: 10px;
+    }
+
+    .publication-experience h3 {
+        font-size: 16px;
+    }
+
+    .content .publication-experience h3 {
+        font-size: 16px;
+    }
+
+    .publication-experience .details {
+        font-size: 12px;
+    }
+
+    .publication-experience .links a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 10px;
+    }
+
+    .publication-experience {
+        padding: 8px;
+    }
+
+    .publication-experience h3 {
+        font-size: 14px;
+    }
+
+    .publication-experience .details {
+        font-size: 12px;
+    }
+
+    .publication-experience .links a {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+}

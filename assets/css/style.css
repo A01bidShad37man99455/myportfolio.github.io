@@ -822,15 +822,7 @@ a.icon-up-bg:hover {color: #212121;}
 }
 
 /* Temporary background colors for testing */
-.hero {  
-    /* background-color: rgba(255, 0, 0, 0.1); */
-    margin-bottom: -100px !important; /* Force the margin-bottom to apply */
-}
 
-.section-portfolio {
-    /* background-color: rgba(0, 0, 255, 0.1); */
-    padding-top: -20px !important; /* Force the padding-top to apply */
-}
 
 @media (max-width: 768px) {
     .hero {

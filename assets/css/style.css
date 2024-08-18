@@ -347,19 +347,19 @@ html, body {
     .hero{
         flex-direction: column;
         align-items: center;
-        height: 70%;
+        height: 40%;
     }
     .hero .row .page-scroll p{
-        font-size: 10px;
+        font-size: 11px;
     }
     
     .hero .col-md-6:last-child {
-        top: 35%;
+        top: 40%;
         left: 0;
     }
 
     .hero .col-md-6:first-child {
-        margin-top: 25%;
+        margin-top: 30%;
         position: relative;
         top: 20%;
     }
@@ -499,6 +499,13 @@ html, body {
     color: #333;
 }
 
+@media (max-width: 1200px) {
+    .hero .section p {
+        font-size: 13px;
+        line-height: 1.6;
+        color: #333;
+    }
+}
 
 
 @media (max-width: 768px) {
@@ -826,10 +833,10 @@ a.icon-up-bg:hover {color: #212121;}
 
 @media (max-width: 768px) {
     .hero {
-        margin-bottom: 160px !important; /* Adjust margin for smaller screens */
+        margin-bottom: 145px !important; /* Adjust margin for smaller screens */
     }
 
     .section-portfolio {
-        padding-top: 60px !important; /* Adjust padding for smaller screens */
+        padding-top: 0px !important;
     }
 }

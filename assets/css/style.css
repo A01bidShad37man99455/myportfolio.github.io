@@ -272,8 +272,14 @@ html, body {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    margin-bottom: 5.8%;
+    /* margin-bottom: 130px; */
     background-color: rgb(255, 255, 255);
+}
+
+@media (max-height: 650px){
+    .hero {
+        margin-bottom: 130px;
+    }
 }
 
 .hero .row h1 {
@@ -501,7 +507,7 @@ html, body {
 }
 
 .hero .section p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.6;
     color: #333;
 }

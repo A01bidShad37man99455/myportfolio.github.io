@@ -304,6 +304,16 @@ main.container {
       /* margin-bottom: 130px; */
       background-color: rgb(255, 255, 255);
   }
+
+  .publication-experience ul {
+    list-style: disc; /* Sets the bullet style */
+    padding-left: 20px; /* Adds space to the left of the bullets */
+}
+
+.publication ul {
+    list-style: disc; /* Sets the bullet style */
+    padding-left: 20px; /* Adds space to the left of the bullets */
+}
   
   @media (max-height: 650px){
       .hero {

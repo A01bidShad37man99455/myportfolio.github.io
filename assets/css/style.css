@@ -369,8 +369,8 @@ main.container {
 
 
   .hero-iimg {
-    border-radius: 50%; /* Makes the image round */
-    border: 2px solid #7e7e7e; /* Adds a border with the specified color */
+    border-radius: 0; /* Makes the image round */
+     /* border: 1px solid #0f0f0f;  */ */
     width: 100%; /* Ensures the image scales correctly within its container */
     height: auto; /* Maintains the aspect ratio of the image */
 }

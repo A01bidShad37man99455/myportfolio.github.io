@@ -57,6 +57,30 @@
       font-size: 30px;
   }
   
+  .graphical-abstract-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    box-sizing: border-box;
+}
+
+.graphical-abstract-image {
+    width: 100%;  /* Make the image take up 100% of the container's width */
+    max-width: none; /* Control the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the image is fully visible */
+    display: block;
+}
+
+.publication-content {
+    margin-top: 02px; /* Adds space between the image and the content */
+}
+
+.title h3 {
+    margin-top: 0px; /* Ensure the title is close to the image */
+}
+
   /* Buttons */ 
   .btn {
       min-width: 125px;
@@ -408,6 +432,33 @@ main.container {
       top: 15%;
   }
   
+
+  @media (min-width: 769px) {
+    .publication {
+        display: flex;
+        flex-direction: column; /* Ensures image is at the top */
+    }
+
+    .graphical-abstract-container {
+        order: -1; /* Forces image to appear before the text content */
+        width: 100%; /* Make sure the image container takes full width */
+    }
+
+    .text-content {
+        margin-top: 5px; /* Adds space between the image and content */
+        max-width: 100%;
+    }
+
+    .graphical-abstract-image {
+        width: 100%; /* Ensures image takes full width */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 500px; /* Control the maximum height */
+        object-fit: cover; /* Ensures image covers the container */
+    }
+}
+
+
+
   @media (max-width : 820px) {
       .hero{
           flex-direction: column;
